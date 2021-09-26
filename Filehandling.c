@@ -8,7 +8,7 @@ int main()
     fclose(fp);
     FILE*fp;
     fp = fopen("new.txt","r");
-    for(int i=0;i<5;i--)
+    for(int i=4;i<5;i--)
     {
         getc=ch(fp);
         printf("%c",ch);
